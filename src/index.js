@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 ReactDOM.render(
+    //configuração do Redux da aplicação
     <Provider store={store}>
         <App />
     </Provider>
